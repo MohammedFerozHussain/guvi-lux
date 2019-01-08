@@ -1,8 +1,8 @@
-s=input()
-y="a","e","i","o","u"
-if s==y:
-  print("Vowel")
-if s!=y:
-  print("Consonant")
-else:
+try:
+  s=input()
+  if s=='a' or 'e' or 'i' or 'o' or 'u':
+    print("Vowel")
+  else:
+    print("Consonant")
+except:
   print("invalid")
