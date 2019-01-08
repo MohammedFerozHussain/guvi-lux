@@ -4,4 +4,4 @@ if c>0:
 elif c<0:
    print("Negative")
 else:
-   print("Zero")
+   print("Invalid")
