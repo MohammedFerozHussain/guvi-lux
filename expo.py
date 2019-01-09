@@ -1,4 +1,3 @@
-O=int(input())
-P=int(input())
+O,P=map(int,input().split())
 G=O**P
 print(G)
