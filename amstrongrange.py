@@ -1,6 +1,6 @@
 d,j=map(int,input().split())
 li=[]
-for num in range(d, j + 1):
+for num in range(d, j):
   sum1=0
   s=len(str(num))
   y=num
