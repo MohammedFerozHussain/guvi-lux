@@ -1,4 +1,4 @@
 p=int(input())
 m=list(map(int,input().split()))
-y=min(m)
+y=max(m)
 print(y)
