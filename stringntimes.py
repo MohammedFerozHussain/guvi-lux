@@ -1,3 +1,3 @@
-a,b=input().split()
-for i in range(0,int(b)):
-  print(a)
+o,p=input().split()
+for i in range(0,int(p)):
+  print(o)
