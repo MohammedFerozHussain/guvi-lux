@@ -1,0 +1,5 @@
+j=int(input())
+y=list(map(int,input().split()))
+u=max(y)
+v=min(y)
+print(v,u)
