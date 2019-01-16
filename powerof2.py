@@ -1,0 +1,11 @@
+x=int(input())
+r=x
+i=1
+while(i>0):
+  y=2**i
+  i+=1
+  if(y==r):
+    print("yes")
+    break
+else:
+    print("no")
